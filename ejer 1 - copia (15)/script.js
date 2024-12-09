@@ -1,5 +1,17 @@
 
+let categoria = albañil
 
-let añonac = Number(prompt ('Por favor, ingrese su año de nacimiento:'))
+let sueldo =  450000
 
-console.log("Usted tiene: " + "" + 2024-añonac + "" + "años")
+
+
+let nota = prompt ('Por favor ingrese la nota del alumno de 1 al 10:')
+
+
+
+if(nota >=7 && nota<=10){
+        alert("alumno APROBADO");
+} else {
+        alert ("alumno DESAPROBADO");
+      
+    }
